@@ -1,0 +1,122 @@
+
+/* Buradaki body kısmındaki background-color ı deiştirerek istediğiniz arkaplan rengine sahip olabilirsiniz */
+
+body{
+    background:#ffffff;
+    text-align:center;
+    width:100%;
+    max-width:400px;
+    margin: 0 auto;
+}
+
+.avatar {
+    margin-top: 50px;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+h3 {
+    font-family:Inter, sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:#000;
+    margin:15px 0px 0px 0px;
+}
+
+h4 {
+    font-family:Inter, sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#646464;
+    margin:0px 0px 30px 0px;
+}
+
+a {
+    font-family:Inter, sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:#ffffff;
+    text-decoration: none;
+    padding:15px;
+    background-color: #40A2E3;
+    border: 1px #2756ff solid;
+    border-radius: 4px;
+    display: block;
+    margin:0px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+a:hover {
+    background-color: #BBE2EC;
+}
+
+
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
